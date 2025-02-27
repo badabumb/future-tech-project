@@ -1251,7 +1251,7 @@ button[aria-label]::before {
   font-weight: 500;
   pointer-events: none;
 }
-.tabs__content.as-active {
+.tabs__content:not(.is-active) {
   display: none;
 }
 .tabs__content:focus-visible {

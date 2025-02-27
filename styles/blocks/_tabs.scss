@@ -50,12 +50,12 @@
     }
 
     &__content {
-        &.as-active {
-            display: none;
+        &:not(.is-active) {
+          display: none;
         }
-
+    
         &:focus-visible {
-            outline-offset: -1rem;
+          outline-offset: -1rem;
         }
-    }
+      }
 }
