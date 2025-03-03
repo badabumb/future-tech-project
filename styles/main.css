@@ -782,7 +782,7 @@ button[aria-label]::before {
 .footer__menu-item {
   display: flex;
   align-items: center;
-  row-gap: 0.5rem;
+  column-gap: 0.5rem;
 }
 .footer__extra {
   display: flex;
