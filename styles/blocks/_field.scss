@@ -52,6 +52,10 @@
             color: var(--color-dark-40);
             font-weight: 400;
         }
+
+        &:user-invalid {
+            border-color: var(--color-red);
+        }
     }
 
     textarea.field__control {
